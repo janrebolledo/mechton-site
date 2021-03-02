@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mechton</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -38,7 +37,7 @@
             <h1>Mechton</h1>
             <p>Professional Player & Content Creator</p>
         </div>
-        <div class="social-media-landing row flex align">
+        <div id="home" class="social-media-landing row flex align">
             <p class="social-media-text">Stay Connected –</p>
             <a href=""><img class="social-media-img" src="Assets/Social Media Icons/Instagram.png"></a>
             <a href=""><img class="social-media-img" src="Assets/Social Media Icons/Twitter.png"></a>
@@ -48,13 +47,39 @@
         </div>
     </section>
 
-    <section class="section flex align justify">
+    <section id="about-me" class="section flex align justify">
         <div class="flex align justify column">
             <h2>About Me</h2>
             <p>Hi! I'm a 15 year old professional Fortnite player and content creator for <a href="https://twitter.com/ThePureHQ">ThePureHQ</a>. I'm a 3x FNCS Grand Finalist with over $10k in earnings.</p>
     </section>
 
-    <section class="section flex align justify">
+    <section id="instagram" class="section flex align justify">
+        <div class="flex align justify column">
+            <h2>Follow Me on <span>Instagram</span></h2>
+        </div>
+    </section>
+
+    <section id="twitch" class="section flex align justify">
+        <div class="flex align justify column">
+            <h2>Follow Me on <span>Twitch</span></h2>
+        </div>
+        <!-- Add a placeholder for the Twitch embed -->
+    <div id="twitch-embed"></div>
+
+    <!-- Load the Twitch embed script -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: “twitch”
+      });
+    </script>
+    </section>
+
+    <section id="contact" class="section flex align justify">
         <div class="flex align justify column">
             <h2>Contact</h2>
             <p>Fill out this form with any questions or offers.</p>
