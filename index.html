@@ -17,22 +17,22 @@
     <header class="flex align">
         <a href=""><img class="header-logo" src="Assets/Logo/Mechton Logo 1.png"></a>
         <div class="header-menu">
-            <a class="dropdown-item" href="">Home</a>
-            <a class="dropdown-item" href="">About Me</a>
+            <a class="dropdown-item" href="#home">Home</a>
+            <a class="dropdown-item" href="#about-me">About Me</a>
             <a class="dropdown-item" href="">Instagram</a>
             <a class="dropdown-item" href="">Youtube</a>
-            <a class="dropdown-item" href="">Twitch</a>
+            <a class="dropdown-item" href="#twitch">Twitch</a>
             <a class="dropdown-item" href="">Twitter</a>
             <a class="dropdown-item" href="">Contact</a>
         </div>
         <div class="dropdown-menu">
         <button class="menu-btn">&#9776;</button>
         <div class="menu-content" id="myDropdown">
-            <a class="dropdown-item" href="">Home</a>
-            <a class="dropdown-item" href="">About Me</a>
+            <a class="dropdown-item" href="#home">Home</a>
+            <a class="dropdown-item" href="#about-me">About Me</a>
             <a class="dropdown-item" href="">Instagram</a>
             <a class="dropdown-item" href="">Youtube</a>
-            <a class="dropdown-item" href="">Twitch</a>
+            <a class="dropdown-item" href="#twitch">Twitch</a>
             <a class="dropdown-item" href="">Twitter</a>
             <a class="dropdown-item" href="">Contact</a>
         </div>
@@ -120,6 +120,14 @@ dropdownBtn.addEventListener('click',()=>{
       menuContent.style.display="";
    }
 })
+        </script>
+
+        <script>
+            $(".dropdown-item").on("click", function (e) {
+  e.preventDefault();
+  const href = $(this).attr("href");
+  $("html, body").animate({ scrollTop: $(href).offset().top }, 800);
+});
         </script>
 
 <!-- Made with ❤ by Jan Rebolledo (JanRebolledo.com) -->
