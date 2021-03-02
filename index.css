@@ -147,7 +147,9 @@ section {
   .loader-image {
       width: 10%;
       animation: loader 2s infinite;
-      animation-timing-function: cubic-bezier(0,1,.5,1);
+      animation-timing-function: ease;
+      z-index: 120;
+      overflow: visible;
   }
   @keyframes loader {
     0% { transform: rotateY(0deg);}
