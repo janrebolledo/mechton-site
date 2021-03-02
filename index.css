@@ -172,7 +172,7 @@ section {
 
   @media screen and (max-width: 980px) {
       .loader-image {
-          width: 60%;
+          width: 40%;
       }
   }
 
