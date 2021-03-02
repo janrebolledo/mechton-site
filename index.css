@@ -169,6 +169,11 @@ section {
 
 /* Social Embeds */
 
+.embed-logo {
+    width: 70px;
+    margin: 10px;
+}
+
 .embed-container {
     width: 100%;
 }
