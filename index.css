@@ -181,6 +181,9 @@ section {
 .landing {
     color: white;
     flex-direction: column;
+}
+
+.landing-2 {
     margin-bottom: 28vh;
 }
 
@@ -200,7 +203,7 @@ section {
 }
 
 @media screen and (max-width: 980px) {
-    .landing {
+    .landing-2 {
         margin-bottom: 0;
     }
     .social-media-landing {
