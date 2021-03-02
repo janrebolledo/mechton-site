@@ -33,19 +33,40 @@
         </div>
     </header>
 
-    <section class="flex align justify">
-        <div class="landing flex align justify">
+    <section class="landing flex align justify">
+        <div class="flex align justify column">
             <h1>Mechton</h1>
             <p>Professional Player & Content Creator</p>
         </div>
-        <div class="social-media-landing">
-            <p>Stay Connected –</p>
+        <div class="social-media-landing row flex align">
+            <p class="social-media-text">Stay Connected –</p>
             <a href=""><img class="social-media-img" src="Assets/Social Media Icons/Instagram.png"></a>
             <a href=""><img class="social-media-img" src="Assets/Social Media Icons/Twitter.png"></a>
             <a href=""><img class="social-media-img" src="Assets/Social Media Icons/YouTube.png"></a>
             <a href=""><img class="social-media-img" src="Assets/Social Media Icons/Twitch.png"></a>
             <a href=""><img class="social-media-img" src="Assets/Social Media Icons/TikTok.png"></a>
         </div>
+    </section>
+
+    <section class="section flex align justify">
+        <div class="flex align justify column">
+            <h2>About Me</h2>
+            <p>Hi! I'm a 15 year old professional Fortnite player and content creator for <a href="https://twitter.com/ThePureHQ">ThePureHQ</a>. I'm a 3x FNCS Grand Finalist with over $10k in earnings.</p>
+    </section>
+
+    <section class="section flex align justify">
+        <div class="flex align justify column">
+            <h2>Contact</h2>
+            <p>Fill out this form with any questions or offers.</p>
+            <form name="contact" class="flex column justify" netlify>
+                  <label>Name</label>
+                  <input type="text" name="name" placeholder="Name"/>
+                  <label>Email</label>
+                  <input type="text" name="email" placeholder="Email"/>
+                  <label>Message</label>
+                  <textarea name="message" placeholder="Message"></textarea>
+                  <button type="submit">Send</button>   
+              </form>
     </section>
     
     <script>
@@ -59,6 +80,8 @@ dropdownBtn.addEventListener('click',()=>{
    }
 })
         </script>
+
+<!-- Made with ❤ by Jan Rebolledo (JanRebolledo.com) -->
 
 </body>
 </html>
