@@ -6,8 +6,13 @@
     <title>Mechton</title>
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
+
+    <div class="loader-wrapper">  
+        <img id="loader-image" class="loader-image" src="Assets/Logo/Mechton Logo 1.png">
+    </div>
 
     <header class="flex align">
         <a href=""><img class="header-logo" src="Assets/Logo/Mechton Logo 1.png"></a>
@@ -97,7 +102,19 @@
                   <button type="submit">Send</button>   
               </form>
     </section>
-    
+
+<script>
+        $(window).on("load",function(){
+          $(".loader-wrapper").delay(800).fadeOut("slow");
+        }
+        );
+</script>
+<script>
+  $(window).on("load",function(){
+    $(".loader-image").delay(1000).animate({width: '0%'});
+}); 
+</script>
+
     <script>
 let dropdownBtn = document.querySelector('.menu-btn');
 let menuContent = document.querySelector('.menu-content');
