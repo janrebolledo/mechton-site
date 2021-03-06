@@ -239,6 +239,10 @@ section {
     display: block;
 }
 
+#youtube-subscribe {
+    margin-top: 3vh;
+}
+
 @media screen and (min-width: 980px) {
     .embed-container {
         height: 80%;
