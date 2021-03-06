@@ -231,6 +231,12 @@ section {
     width: 100%;
 }
 
+@media screen and (max-width: 980px) {
+    .embed-container {
+        height: 80%;
+    }
+}
+
 /* Contact */
 
 form {
