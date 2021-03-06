@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mechton</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
+
 <body>
 
-    <div class="loader-wrapper">  
+    <div class="loader-wrapper">
         <img id="loader-image" class="loader-image" src="Assets/Logo/Mechton Logo 1.png">
     </div>
 
@@ -26,16 +28,16 @@
             <a class="dropdown-item" href="#contact">Contact</a>
         </div>
         <div class="dropdown-menu">
-        <button class="menu-btn">&#9776;</button>
-        <div class="menu-content" id="myDropdown">
-            <a class="dropdown-item" href="#home">Home</a>
-            <a class="dropdown-item" href="#about-me">About Me</a>
-            <a class="dropdown-item" href="">Instagram</a>
-            <a class="dropdown-item" href="#youtube">Youtube</a>
-            <a class="dropdown-item" href="#twitch">Twitch</a>
-            <a class="dropdown-item" href="#twitter">Twitter</a>
-            <a class="dropdown-item" href="#contact">Contact</a>
-        </div>
+            <button class="menu-btn">&#9776;</button>
+            <div class="menu-content" id="myDropdown">
+                <a class="dropdown-item" href="#home">Home</a>
+                <a class="dropdown-item" href="#about-me">About Me</a>
+                <a class="dropdown-item" href="">Instagram</a>
+                <a class="dropdown-item" href="#youtube">Youtube</a>
+                <a class="dropdown-item" href="#twitch">Twitch</a>
+                <a class="dropdown-item" href="#twitter">Twitter</a>
+                <a class="dropdown-item" href="#contact">Contact</a>
+            </div>
     </header>
 
     <section class="landing flex align justify">
@@ -56,7 +58,9 @@
     <section id="about-me" class="section flex align justify">
         <div class="flex align justify column">
             <h2>About Me</h2>
-            <p>Hi! I'm a 15 year old professional Fortnite player and content creator for <a target="_blank" href="https://twitter.com/ThePureHQ">ThePureHQ</a>. I'm a 3x FNCS Grand Finalist with over $10k in earnings.</p>
+            <p>Hi! I'm a 15 year old professional Fortnite player and content creator for <a target="_blank"
+                    href="https://twitter.com/ThePureHQ">ThePureHQ</a>. I'm a 3x FNCS Grand Finalist with over $10k in
+                earnings.</p>
     </section>
 
     <section id="twitch" class="section column flex align justify">
@@ -66,41 +70,41 @@
         </div>
         <!-- Add a placeholder for the Twitch embed -->
         <div id="twitch-desktop" class="embed-container">
-    <div id="twitch-embed"></div>
+            <div id="twitch-embed"></div>
 
-    <!-- Load the Twitch embed script -->
-    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+            <!-- Load the Twitch embed script -->
+            <script src="https://embed.twitch.tv/embed/v1.js"></script>
 
-    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
-    <script type="text/javascript">
-      new Twitch.Embed("twitch-embed", {
-        width: "100%",
-        height: "500px",
-        layout: "video",
-        channel: "mechton_",
-        // only needed if your site is also embedded on embed.example.com and othersite.example.com 
-        parent: ["embed.example.com", "othersite.example.com"]
-      });
-    </script>
-    </div>
+            <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+            <script type="text/javascript">
+                new Twitch.Embed("twitch-embed", {
+                    width: "100%",
+                    height: "500px",
+                    layout: "video",
+                    channel: "mechton_",
+                    // only needed if your site is also embedded on embed.example.com and othersite.example.com 
+                    parent: ["embed.example.com", "othersite.example.com"]
+                });
+            </script>
+        </div>
 
-    <div id="twitch-mobile" class="embed-container">
-        <div id="twitch-embed-2"></div>
-    
-        <!-- Load the Twitch embed script -->
-        <script src="https://embed.twitch.tv/embed/v1.js"></script>
-    
-        <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
-        <script type="text/javascript">
-          new Twitch.Embed("twitch-embed-2", {
-            width: "100%",
-            height: "300px",
-            layout: "video",
-            channel: "mechton_",
-            // only needed if your site is also embedded on embed.example.com and othersite.example.com 
-            parent: ["embed.example.com", "othersite.example.com"]
-          });
-        </script>
+        <div id="twitch-mobile" class="embed-container">
+            <div id="twitch-embed-2"></div>
+
+            <!-- Load the Twitch embed script -->
+            <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+            <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+            <script type="text/javascript">
+                new Twitch.Embed("twitch-embed-2", {
+                    width: "100%",
+                    height: "300px",
+                    layout: "video",
+                    channel: "mechton_",
+                    // only needed if your site is also embedded on embed.example.com and othersite.example.com 
+                    parent: ["embed.example.com", "othersite.example.com"]
+                });
+            </script>
         </div>
 
     </section>
@@ -111,7 +115,9 @@
             <img class="embed-logo" src="Assets/Social Media Icons/Twitter Color.png">
         </div>
 
-        <a class="twitter-timeline" style="margin: 5vh 0;" data-width="316" data-theme="dark" href="https://twitter.com/Mechton?ref_src=twsrc%5Etfw">Tweets by Mechton</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a class="twitter-timeline" style="margin: 5vh 0;" data-width="316" data-theme="dark"
+            href="https://twitter.com/Mechton?ref_src=twsrc%5Etfw">Tweets by Mechton</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     </section>
 
@@ -123,21 +129,17 @@
 
         <div class="embed-container">
 
-        <iframe
-      width="100%"
-      height="100%"
-      src="https://www.youtube.com/embed/videoseries?list=UUkTfw67TpfSBOKUFfL1VqxA"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-      style="margin: 5vh 0;"
-    ></iframe>
+            <iframe width="100%" height="100%"
+                src="https://www.youtube.com/embed/videoseries?list=UUkTfw67TpfSBOKUFfL1VqxA" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen style="margin: 5vh 0;"></iframe>
+        </div>
+        <script src="https://apis.google.com/js/platform.js"></script>
 
-    <script src="https://apis.google.com/js/platform.js"></script>
+        <script src="https://apis.google.com/js/platform.js"></script>
 
-    <script src="https://apis.google.com/js/platform.js"></script>
-
-    <div class="g-ytsubscribe" data-channelid="UCkTfw67TpfSBOKUFfL1VqxA" data-layout="full" data-theme="dark" data-count="default"></div>
+        <div class="g-ytsubscribe" data-channelid="UCkTfw67TpfSBOKUFfL1VqxA" data-layout="full" data-theme="dark"
+            data-count="default"></div>
 
     </section>
 
@@ -146,50 +148,51 @@
             <h2>Contact</h2>
             <p>Fill out this form with any questions or offers.</p>
             <form name="contact" class="flex column justify" netlify>
-                  <label>Name</label>
-                  <input type="text" name="name" placeholder="Name"/>
-                  <label>Email</label>
-                  <input type="text" name="email" placeholder="Email"/>
-                  <label>Message</label>
-                  <textarea name="message" placeholder="Message"></textarea>
-                  <button type="submit">Send</button>   
-              </form>
+                <label>Name</label>
+                <input type="text" name="name" placeholder="Name" />
+                <label>Email</label>
+                <input type="text" name="email" placeholder="Email" />
+                <label>Message</label>
+                <textarea name="message" placeholder="Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
     </section>
 
-<script>
-        $(window).on("load",function(){
-          $(".loader-wrapper").delay(600).fadeOut("slow");
+    <script>
+        $(window).on("load", function () {
+            $(".loader-wrapper").delay(600).fadeOut("slow");
         }
         );
-</script>
-
-<script>
-  $(window).on("load",function(){
-    $(".loader-image").delay(650).animate({width: '0%'});
-}); 
-</script>
+    </script>
 
     <script>
-let dropdownBtn = document.querySelector('.menu-btn');
-let menuContent = document.querySelector('.menu-content');
-dropdownBtn.addEventListener('click',()=>{
-   if(menuContent.style.display===""){
-      menuContent.style.display="flex";
-   } else {
-      menuContent.style.display="";
-   }
-})
-        </script>
+        $(window).on("load", function () {
+            $(".loader-image").delay(650).animate({ width: '0%' });
+        }); 
+    </script>
 
-        <script>
-            $(".dropdown-item").on("click", function (e) {
-  e.preventDefault();
-  const href = $(this).attr("href");
-  $("html, body").animate({ scrollTop: $(href).offset().top }, 800);
-});
-        </script>
+    <script>
+        let dropdownBtn = document.querySelector('.menu-btn');
+        let menuContent = document.querySelector('.menu-content');
+        dropdownBtn.addEventListener('click', () => {
+            if (menuContent.style.display === "") {
+                menuContent.style.display = "flex";
+            } else {
+                menuContent.style.display = "";
+            }
+        })
+    </script>
 
-<!-- Made with ❤ by Jan Rebolledo (JanRebolledo.com) -->
+    <script>
+        $(".dropdown-item").on("click", function (e) {
+            e.preventDefault();
+            const href = $(this).attr("href");
+            $("html, body").animate({ scrollTop: $(href).offset().top }, 800);
+        });
+    </script>
+
+    <!-- Made with ❤ by Jan Rebolledo (JanRebolledo.com) -->
 
 </body>
+
 </html>
