@@ -231,9 +231,23 @@ section {
     width: 100%;
 }
 
+#twitch-desktop {
+    display: none;
+}
+
+#twitch-mobile {
+    display: block;
+}
+
 @media screen and (min-width: 980px) {
     .embed-container {
         height: 80%;
+    }
+    #twitch-desktop {
+        display: block;
+    }
+    #twitch-mobile {
+        display: none;
     }
 }
 
