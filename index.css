@@ -92,6 +92,16 @@ section {
     padding: 0 15%;
 }
 
+.padding {
+    padding: 0 15%;
+}
+
+@media screen and (max-width: 980px) {
+    .padding {
+        padding: 0 10%;
+    }
+}
+
 /* Header */
 
 .menu-btn {
@@ -291,7 +301,7 @@ section {
 }
 
 #twitter-follow {
-    width: 60%;
+    width: 100%;
     margin-bottom: 3vh;
 }
 
@@ -319,16 +329,6 @@ section {
     border: 2px solid #1b95e0;
 }
 
-#twitter-0 {
-    display: none;
-    height: 10vh;
-}
-
-#twitter-1 {
-    display: none;
-    height: 1vh;
-}
-
 @media screen and (min-width: 980px) {
     .embed-container {
         height: 80%;
@@ -339,23 +339,11 @@ section {
     #twitch-mobile {
         display: none;
     }
-    #twitter-0 {
-        display: block;
-    }
-    #twitter-1 {
-        display: none;
-    }
 }
 
 @media screen and (max-width: 980px) {
     #twitter-follow {
         width: 100%;
-    }
-    #twitter-0 {
-        display: none;
-    }
-    #twitter-1 {
-        display:block;
     }
     .instagram-subscribe-container {
         flex-direction: column;
