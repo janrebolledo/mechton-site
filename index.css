@@ -257,6 +257,13 @@ section {
     justify-content: space-between;
 }
 
+.instagram-subscribe-container {
+    padding: 3% 5%;
+    background-color: rgb(24, 24, 24);
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
 .youtube-profile-picture {
     border-radius: 50%;
     width: 80px;
@@ -283,6 +290,45 @@ section {
     border-radius: 5px;
 }
 
+#twitter-follow {
+    width: 60%;
+    margin-bottom: 3vh;
+}
+
+.instagram-profile-picture {
+    border-radius: 50%;
+    width: 120px;
+}
+
+.instagram-profile {
+    margin: 15px;
+}
+
+.instagram-follow-button {
+    padding: 12px 32px;
+    background-color: #1b95e0;
+    color: white;
+    border-radius: 5px;
+}
+
+.twitter-follow-button-2 {
+    padding: 12px 16px;
+    color: #1b95e0;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 2px solid #1b95e0;
+}
+
+#twitter-0 {
+    display: none;
+    height: 10vh;
+}
+
+#twitter-1 {
+    display: none;
+    height: 1vh;
+}
+
 @media screen and (min-width: 980px) {
     .embed-container {
         height: 80%;
@@ -290,8 +336,26 @@ section {
     #twitch-desktop {
         display: block;
     }
-    #twitch-mobile {
+    #twitter-0 {
+        display: block;
+    }
+    #twitter-1 {
         display: none;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #twitter-follow {
+        width: 100%;
+    }
+    #twitter-0 {
+        display: none;
+    }
+    #twitter-1 {
+        display:block;
+    }
+    .instagram-subscribe-container {
+        flex-direction: column;
     }
 }
 
