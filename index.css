@@ -336,6 +336,9 @@ section {
     #twitch-desktop {
         display: block;
     }
+    #twitch-mobile {
+        display: none;
+    }
     #twitter-0 {
         display: block;
     }
