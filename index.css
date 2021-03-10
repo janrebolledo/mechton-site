@@ -102,6 +102,10 @@ section {
     }
 }
 
+.Main__Inner-sc-1241y56-0 > a {
+    display: none !important; 
+}
+
 /* Header */
 
 .menu-btn {
