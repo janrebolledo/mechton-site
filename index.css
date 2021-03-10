@@ -42,7 +42,7 @@ h1 {
 
 h2 {
     font-size: 48px;
-    margin: 3vh 0;
+    margin: 5vh 0;
 }
 
 h3 {
@@ -98,7 +98,7 @@ section {
 
 @media screen and (max-width: 980px) {
     .padding {
-        padding: 0 10%;
+        padding: 0 8%;
     }
 }
 
@@ -269,6 +269,7 @@ section {
     background-color: rgb(24, 24, 24);
     border-radius: 5px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .instagram-subscribe-container {
