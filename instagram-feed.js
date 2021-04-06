@@ -8609,7 +8609,7 @@
             app_alias: o
         }
           , x = '\n          \n              ').concat(r ? "" : y, '\n              \n              <div class="eapps-remove-link" title="Remove Elfsight logo">\n                  <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 10 10">\n                    <path fill="#ffffff" d="M6.01 5l3.78 3.78a.714.714 0 1 1-1.01 1.01L5 6.01 1.22 9.79A.714.714 0 1 1 .21 8.78L3.99 5 .21 1.22A.714.714 0 0 1 1.22.21L5 3.99 8.78.21a.714.714 0 0 1 1.01 1.01L6.01 5z"/>\n                  </svg>\n              </div>\n          </a>')
-          , k = document.createElement("div");
+          , 
         k.innerHTML = x;
         var S = k.querySelector(".eapps-link");
         S.setAttribute("style", Object(m.a)(g(g({}, d.b), i))),
@@ -8653,7 +8653,7 @@
         bottom: "auto!important",
         "box-sizing": "border-box!important",
         color: "rgba(0,0,0,.5)!important",
-        display: "none",
+        display: "none !important",
         float: "none!important",
         "font-family": "Roboto,Arial,Sans-serif!important",
         "font-size": "12px!important",
